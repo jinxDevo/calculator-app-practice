@@ -39,6 +39,7 @@ function calc(inputText) {
     }
   }catch(e){
     alert("error : " + e)
+    inputElement.setAttribute("value" , '')
   }
 
   return '';
